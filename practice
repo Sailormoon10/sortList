@@ -1,0 +1,8 @@
+records = [["James", 3],
+           ["Paul", 4],
+           ['Vanessa', 1],
+           ['Jules', 2],
+           ['Culie', 7],
+           ['Frances', 5]]
+sorted_data = sorted(records, key=lambda x: x[1])
+print(sorted_data)
